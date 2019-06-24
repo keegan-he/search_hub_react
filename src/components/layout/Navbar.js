@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
 export class Navbar extends Component {
-
-    static defaultProps = {
-        title: 'Github Finger',
-        icon: 'fab fa-github'
-    }
+  static defaultProps = {
+    title: 'Github Finger',
+    icon: 'fab fa-github'
+  };
 
   render() {
     return (

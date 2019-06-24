@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar title="Search Hub" icon="fab fa-github" />
+        <Navbar />
       </div>
     );
   }
