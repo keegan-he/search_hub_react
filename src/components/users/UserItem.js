@@ -6,13 +6,21 @@ class UserItem extends Component {
     this.state = {
       id: 'id',
       login: 'keegan-he',
-      avatar_ural:
-        'https://avatars1.githubusercontent.com/u/46201161?s=460&v=4',
+      avatar_url: 'https://avatars1.githubusercontent.com/u/46201161?s=460&v=4',
       html_url: 'https://github.com/keegan-he'
     };
   }
   render() {
-    return <div>UserItem</div>;
+    return (
+      <div className="card text-center">
+        <img
+          src={this.state.avatar_url}
+          alt=""
+          className="round-img"
+          style={{ width: '60px' }}
+        />
+      </div>
+    );
   }
 }
 
